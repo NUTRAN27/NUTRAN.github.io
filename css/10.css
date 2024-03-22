@@ -1,0 +1,103 @@
+#Menu_text{
+   margin: 0;
+} 
+
+ #Menu_text{
+    background-color: lightpink;
+    text-align: center;
+    padding: 80px;
+ }
+
+ nav{
+    background-color: grey;
+    overflow: hidden;
+    padding: 14px 20px;
+
+ }
+ nav a{
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+
+ }
+ .menu_left{
+   float: left;
+ }
+.menu_right{
+   float: right;
+ }
+ nav a:hover{
+    background-color: whitesmoke;
+    color: black;
+ 
+ }
+
+ #left_side{
+   flex: 30%;
+   background-color: skyblue;
+   padding: 10px 20px;
+ }
+ #right_side{
+   flex: 70%;
+   background-color: lightyellow;
+   padding: 10px 20px;
+ }
+ #flex_container{
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ footer{
+   background-color: : lightgreen;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+}
+footer> a{
+   color: red;
+}
+table{
+
+}
+table
+{
+   font-family: Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   
+}
+ table td, table th{
+   border: 1px soild lightpink;
+   padding: 8px;
+}
+table tr :nth-child(even){background-color: lightblue;}
+table tr : hover {background-color: lightpink;}
+
+tabble th{
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: lightgreen;
+   color: white;
+}
+
+@media(max-width: 800px){
+   #left_side{
+      flext:100%;
+   }
+   #right_side{
+      flext:100%;
+   
+   }
+}
+@media(max-width: 400px){
+   #left_side{
+      flext:100%;
+   }
+   #right_side{
+      flext:100%;
+   
+   }
+}
